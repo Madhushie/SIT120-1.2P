@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Set initial viewport for responsive design -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+      /* Reset default margin and padding, set background color */
+
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #e4eede;
+      }
+      /* Styling for the header section */
+
+      header {
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        padding: 1rem;
+      }
+      /* Styling for the navigation section */
+
+      nav {
+        background-color: #c2d5af;
+        color: #fff;
+        text-align: center;
+        padding: 0.5rem;
+      }
+      /* Styling for the main content section */
+
+      main {
+        padding: 2rem;
+      }
+      /* Styling for the footer section */
+
+      footer {
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        padding: 0.5rem;
+      }
+      /* Media query for screens up to 700px width */
+
+      @media (max-width: 700px) {
+        nav {
+          display: block; /* Media query for screens up to 700px width */
+        }
+        nav ul {
+          padding: 0; /* Remove padding from the list */
+        }
+        nav li {
+          margin: 0.5rem 0; /* Adjust margin for list items */
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Responsive Design Example</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <p>
+        Welcome to our website! We offer a range of services to meet your needs.
+      </p>
+    </main>
+    <footer>
+      <p>&copy; 2023 Responsive Design Example</p>
+    </footer>
+  </body>
+</html>

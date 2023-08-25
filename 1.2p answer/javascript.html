@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Concepts</title>
+  </head>
+  <body>
+    <script>
+      // String methods
+      const str = "Hello, My name is Madhushie";
+      console.log(str.length); // Length of the string
+      console.log(str.toUpperCase()); // Convert to uppercase
+      console.log(str.toLowerCase()); // Convert to lowercase
+      console.log(str.indexOf("name")); // Find index of a substring
+      console.log(str.slice(7)); // Extract substring
+
+      // Number methods
+      const num = 82.75;
+      console.log(num.toFixed(1)); // Format decimal places
+      console.log(num.toPrecision(4)); // Format total digits
+      console.log(Number.isInteger(num)); // Check if it's an integer
+      console.log(Math.sqrt(num)); // Square root
+      console.log(Math.random()); // Random number between 0 and 1
+
+      // Array methods
+      const arr = [2, 5, 8, 11, 14];
+      console.log(arr.length); // Length of the array
+      console.log(arr.reverse()); // Reverse the array
+      console.log(arr.join(" - ")); // Join elements with a separator
+      console.log(arr.indexOf(11)); // Find index of an element
+      console.log(arr.slice(1, 4)); // Extract sub-array
+
+      // Date methods
+      const now = new Date();
+      console.log(now.getFullYear()); // Get the year
+      console.log(now.getMonth()); // Get the month (0-11)
+      console.log(now.getDate()); // Get the day of the month
+      console.log(now.getHours()); // Get the hour
+      console.log(now.getMinutes()); // Get the minutes
+
+      // Function methods
+      function greet(name) {
+        console.log(`Hello, ${name}!`);
+      }
+      const greetDelayed = setTimeout(greet, 2000, "jenna"); // Delayed function call
+      // clearTimeout(greetDelayed); // Cancel the delayed call
+
+      function calculate(a, b) {
+        return a + b;
+      }
+      const result = calculate(3, 7);
+      console.log("Result:", result);
+    </script>
+  </body>
+</html>
